@@ -1,8 +1,25 @@
 aid: redaccess
-name: Redaccess
-description: 'Redaccess is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+name: Red Access
+description: 'Red Access (redaccess.io) is a cloud-based enterprise browsing and Secure
+  Service Edge (SSE) security platform delivering agentless, browser-native protection
+  — Zero Trust browsing, DLP, SWG, CASB, EDR-for-the-browser and GenAI security governance
+  — without network rewrites or endpoint agents. Backed by Norwest Venture Partners
+  and headquartered in New York, it was named a Leader in the 2025 GigaOm Radar for
+  Secure Enterprise Browsing. As of this enrichment pass Red Access publishes no public
+  API, developer portal, or OpenAPI surface; this profile carries the company identity
+  and probed domain-security posture.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://redaccess.io/wp-content/uploads/2025/08/logo-text.svg
 url: https://raw.githubusercontent.com/api-evangelist/redaccess/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Security
+- Cybersecurity
+- Secure Service Edge
+- Browser Security
+- Zero Trust
+- Data Loss Prevention
+- SSE
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://redaccess.io
+- type: Blog
+  url: https://redaccess.io/blog/
+- type: SignUp
+  url: https://info.redaccess.io/request-a-demo
+- type: TermsOfService
+  url: https://redaccess.io/wp-content/uploads/2025/09/Terms.pdf
+- type: PrivacyPolicy
+  url: https://redaccess.io/wp-content/uploads/2025/09/Privacy.pdf
+- type: DomainSecurity
+  url: security/redaccess-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
