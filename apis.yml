@@ -8,6 +8,17 @@ description: 'Red Access (redaccess.io) is a cloud-based enterprise browsing and
   Secure Enterprise Browsing. As of this enrichment pass Red Access publishes no public
   API, developer portal, or OpenAPI surface; this profile carries the company identity
   and probed domain-security posture.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
